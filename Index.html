@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <title>Admission</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
+</head>
+
+<body>
+    <header class="header">
+        <img class="logo" src="University_of_Toronto-Logo.wine.png" alt="University_Logo">
+        <nav>
+            <ul class="nav_link">
+                <li><a href="#">Admission</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">Faculty</a></li>
+                <li><a href="#">Campus</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+        <a href="#"><button>Contact</button></a>
+
+    </header>
+
+    <main>
+        <form class="Text-1">
+            <div class="Names">
+                <!--<fieldset>-->
+                <table>
+                    <tr>
+                        <legend><b>Names</b></legend>
+
+                        <td><label for="fName">First Name:-</label></td>
+                        <td><input type="text" name="fName"></td>
+
+                        <td><label for="mName">Middle Name:-</label></td>
+                        <td><input type="text" name="mName"></td>
+
+                        <td><label for="lName">Last Name:-</label></td>
+                        <td><input type="text" name="lName"></td>
+                    </tr>
+
+                    <br>
+
+                    <tr>
+                        <td><label for="moName">Mother's Name:-</label></td>
+                        <td><input type="text" name="moName"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="faName">Father's Name:-</label></td>
+                        <td><input type="text" name="faName"></td>
+                    </tr>
+                </table>
+                <!--</fieldset>-->
+            </div>
+
+            <br>
+
+            <div class="Contact">
+                <!--<fieldset>-->
+                <table>
+                    <tr>
+                        <legend><b>Contact Details</b></legend>
+
+                        <td><label for="Address">Address:-</label></td>
+                        <!--<td><input type="text" name="Address"></td>-->
+                        <td><textarea rows="3" cols="30" name="Address"></textarea></td>
+
+                        <td><label for="dist">District:-</label></td>
+                        <td><input type="text" name="dist"></td>
+
+                        <td><label for="State">State:-</label></td>
+                        <td><input type="text" name="State"></td>
+
+                        <td><label for="Pin">Pin:-</label></td>
+                        <td><input type="number" name="Pin"></td>
+                    </tr>
+
+
+                    <tr>
+                        <td><label for="Email">Email:-</label></td>
+                        <td><input type="email" name="Email"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Phone">Phone No.:-</label></td>
+                        <td><input type="number" name="Phone"></td>
+                    </tr>
+                </table>
+                <!--</fieldset>-->
+            </div>
+
+            <br>
+
+            <div class="Personal">
+                <!--<fieldset>-->
+                <table>
+                    <tr>
+                        <legend><b>Personal</b></legend>
+
+                        <td><label for="DOB">Date of Birth</label></td>
+                        <td><input type="date" name="DOB"></td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <th>Gender:-</th>
+                        <td><input type="radio" name="Gender"></td>
+                        <td><label for="Gender">Male</label></td>
+                        <td><input type="radio" name="Gender"></td>
+                        <td><label for="Gender">Female</label></td>
+                        <td><input type="radio" name="Gender"></td>
+                        <td><label for="Gender">Others</label></td>
+                    </tr>
+                </table>
+                <!--</fieldset>-->
+            </div>
+
+            <br>
+
+            <div class="Qualification">
+                <!--<fieldset>-->
+                <table>
+                    <legend><b>Qualification</b></legend>
+                    <tr>
+                        <td><label for="10th">10<sup>th</sup> Percentage</label></td>
+                        <td><input type="number" name="10th"></td>
+
+                        <td><label for="10th_file">10<sup>th</sup> Marksheet</label></td>
+                        <td><input type="file" name="10th_file"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="12th">12<sup>th</sup> Percentage</label></td>
+                        <td><input type="number" name="12th"></td>
+
+                        <td><label for="12th_file">12<sup>th</sup> Marksheet</label></td>
+                        <td><input type="file" name="12th_file"></td>
+                    </tr>
+                </table>
+                <!--</fieldset>-->
+            </div>
+
+            <br>
+
+            <div class="Choice">
+                <!--<fieldset>-->
+                <table>
+                    <legend><b>Choice</b></legend>
+                    <tr>
+                        <td>
+                            <p><strong>Your Subject-</strong></p>
+                        </td>
+                        <td>
+                            <select>
+                                <option value="opt">Choose an option...</option>
+                                <option value="Science">Science</option>
+                                <option value="Arts">Arts</option>
+                                <option value="Commarce">Commarce</option>
+                            </select>
+                        </td>
+
+                        <td>
+
+                            <select>
+                                <option value="opt">Choose an option...</option>
+                                <optgroup label="Science">Science</optgroup>
+                                <option value="Science">Physics Degrees</option>
+                                <option value="Science">Mathematics Degrees</option>
+                                <option value="Science">Chemistry Degrees</option>
+                                <option value="Science">Biology Degrees</option>
+                                <option value="Science">Forensic Science Degrees</option>
+                                <option value="Science">Food Science Degrees</option>
+
+                                <optgroup label="Arts">Arts</optgroup>
+                                <option value="Arts">Languages</option>
+                                <option value="Arts">Economics</option>
+                                <option value="Arts">Political Science</option>
+                                <option value="Arts">History</option>
+                                <option value="Arts">Psychology</option>
+                                <option value="Arts">Philosophy</option>
+                                <option value="Arts">Archaeology</option>
+                                <option value="Arts">Sociology</option>
+                                <option value="Arts">Religious Studies</option>
+
+                                <optgroup label="Commarce">Commarce</optgroup>
+                                <option value="Commarce">Accounting and Finance</option>
+                                <option value="Commarce">banking and finance</option>
+                                <option value="Commarce">accounting and taxation</option>
+                                <option value="Commarce">business administration</option>
+                                <option value="Commarce">financial accounting</option>
+                                <option value="Commarce">human resources</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+                <!--</fieldset>-->
+            </div>
+
+            <div class="Documents">
+                <!--<fieldset>-->
+                <table>
+                    <legend><b>Documents</b></legend>
+                    <tr>
+                        <td><label for="Application">Application Form</label></td>
+                        <td><input type="file" name="clg"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Image">Applicant Picture</label></td>
+                        <td><input type="file" name="Image"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="signature">Signature</label></td>
+                        <td><input type="file" name="signature"></td>
+                    </tr>
+                </table>
+                <!--</fieldset>-->
+            </div>
+        </form>
+
+        <br>
+
+        <div>
+            <table>
+                <tr class="tc">
+                    <td><input type="checkbox" name="Trm"></td>
+                    <td><label for="Trm">I argee to the <strong><a href="#">terms and services</a></strong></label></td>
+                </tr>
+            </table>
+        </div>
+
+        <button type="submit" id="button">Submit</button>
+    </main>
+
+    <footer >
+        
+    </footer>
+
+</body>
+
+</html>
